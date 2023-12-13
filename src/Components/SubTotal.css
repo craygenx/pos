@@ -1,0 +1,31 @@
+.Subtotal_main {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.totals{
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 49%;
+    padding: 5px;
+    border-radius: 4px;
+}
+#hold{
+    background-color: orange;
+}
+#process {
+    background-color: green;
+}

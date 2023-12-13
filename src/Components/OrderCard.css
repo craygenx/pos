@@ -1,0 +1,33 @@
+.ordercrdCont{
+    margin: 10px 0px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+.ocleft{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.itemNum{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.temName{
+    font-weight: bold;
+}
+.ocright{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.prc{
+    font-weight: bold;
+}
+.ordercrdCont:nth-child(even){
+    background-color: lightgray;
+}
+.ordercrdCont:nth-child(odd){
+    background-color: white;
+}

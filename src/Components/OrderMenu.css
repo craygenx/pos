@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+.Ordermenu_main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.navigation{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.mainContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.menuFilters{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 10%;
+}
+.sideNav{
+    width: 5%;
+    height: 100%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menuCont{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.menuItems{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inventory{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.selectedItems{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+.subs{
+    height: 20%;
+    width: 100%;
+}
+.filter {
+    margin-right: 20px;
+    padding: 10px 10px;
+    margin-left: 5px;
+}
+.filter-active{
+    border: 1px solid orange;
+    margin-right: 20px;
+    margin-left: 5px;
+    padding: 5px;
+}
+.menuItemCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: beige;
+    margin-bottom: 10px;
+}
+.menuIcon{
+    margin-bottom: 10px;
+}
+.titleSearchBar{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#search{
+    width: 60%;
+    height: 1.5em;
+}
+.companytitle{
+    font-size: 1.5em;
+}
+/* 60-80 20% */
+.inventoryHead{
+    width: 90%;
+    height: 10%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headLeft{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.changeTblBtn{
+    display: flex;
+    padding: 10px 10px;
+    background-color: #f0f0f0;
+}
+.headRight{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.clearInventoryBtn{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.changeIcon{
+    margin-right: 10px;
+}

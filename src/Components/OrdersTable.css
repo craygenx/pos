@@ -1,0 +1,25 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .grey-row {
+    background-color: #f0f0f0;
+  }
+  
+  .white-row {
+    background-color: #fff;
+  }
+  

@@ -1,0 +1,99 @@
+/* ExpandableCard.css */
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: max-height 0.3s ease;
+    margin: 20px;
+  }
+
+  .titleNumber{
+    display: flex;
+    width: fit-content;
+  }
+  
+  .collapsed-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    overflow: hidden;
+    max-height: 100px;
+  }
+  
+  .expanded-content {
+    display: none;
+    padding: 10px;
+    border-left: 2px solid green;
+    border-radius: 5px;
+  }
+  
+  /* Add your other CSS styles here */
+  
+  .card.expanded .collapsed-content {
+    display: none;
+  }
+  
+  .card.expanded .expanded-content {
+    display: block;
+  }
+  .reschedule-button{
+    background-color: rgb(118, 118, 218);
+    margin-top: 10px;
+  }
+  .description{
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+    margin-left: 20px;
+  }
+  .editCard{
+    width: 220px;
+    height: 120px;
+    margin-top: 10px;
+  }
+  .timeConts{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnsCont{
+    display: flex;
+    margin-top: 10px;
+  }
+  .endtime, .strtime{
+    width: 40%;
+  }
+  .delete{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .sheduleBtn{
+    margin-right: 10px;
+  }
+  .topp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .numtitle{
+    display: flex;
+    width: fit-content;
+  }
+  .title{
+    margin-left: 30px;
+  }
+  .bottm{
+    display: block;
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+  .qttyTitle{
+    margin-bottom: 10px;
+  }

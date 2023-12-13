@@ -1,0 +1,131 @@
+.cashierMain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.orderBreakdown {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.keypadss{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.breakdownTop{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    /* border-bottom: 1px solid grey; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+.breakdwnBtm{
+    height: 95%;
+    width: 100%;
+}
+.miscinfo{
+    height: 15%;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.keypadmain{
+    height: fit-content;
+    width: 100%;
+}
+.miscleft{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 10px;
+}
+.paybletxt{
+    margin-bottom: 10px;
+}
+.miscright{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-right: 10px;
+}
+.dets {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ordid{
+    margin-bottom: 10px;
+}
+.del {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.waiterName{
+    color: lightgrey;
+}
+.payableAmnt{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.btmTop{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+.orderId{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.orditemscont{
+    height: 60%;
+    width: 100%;
+}
+.btmfooter{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.summaries{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    padding: 20px 0px;
+    background-color: #f0f0f0;
+}
+.credit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.confirmationBtn{
+    width: 100%;
+}
+.confirmationBtn button{
+    width: 100%;
+    height: 45px;
+    /* padding: 10px 0px; */
+    background-color: green;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
